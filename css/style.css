@@ -13,14 +13,17 @@ section {
 
 section:first-of-type {
     background-color: red;
+    color: yellow;
 }
 
 section:nth-of-type(2) {
     background-color: green;
+    color: red;
 }
 
 section:nth-of-type(3)  {
     background-color: yellow;
+    color: green;
 }
 
 .container {
@@ -32,7 +35,6 @@ section:nth-of-type(3)  {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 70px;
-    color: black;
 }
 
 .container img {
@@ -43,6 +45,25 @@ section:nth-of-type(3)  {
 }
 
 .container h2 {
-    filter: invert(1);
     text-transform: uppercase;
+}
+
+nav {
+    height: 50px;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    font-weight: 700;
+    background-color: white;
+    margin: 0 15px;
 }
