@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;;
 }
 
 section {
@@ -24,5 +25,24 @@ section:nth-of-type(3)  {
 
 .container {
     text-align: center;
+    width: 45%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: black;
 }
 
+.container img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: -100px;
+}
+
+.container h2 {
+    filter: invert(1);
+    text-transform: uppercase;
+}
